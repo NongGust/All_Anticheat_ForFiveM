@@ -1,0 +1,5 @@
+- If you have kicks with reason RandomStringResource, then open config and scroll down to line 86, and disable LXC.RSIMethod
+- If you get banned for reasons Blacklisted events, change your tiggers, or scroll down to line 36 in the config, and disable it.
+- If you have ABCmdsGlobal kicks, disable ABCmdsGlobal and enable ABCmds in the config (line 93, and 94)
+- Disable antigodmode if you are using VRP or QBCORE, config -> line 23
+- Put your discord webhook link into line 11.
