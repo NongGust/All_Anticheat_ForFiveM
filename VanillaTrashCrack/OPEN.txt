@@ -1,0 +1,12 @@
+#-------------------ADD THAT TO YOUR SERVER.CFG------------------#
+#-----------------WORK WITH STEAM ID OR DISCORD ID---------------#
+
+
+add_ace VanillaACGBAdministrator VanillaACGBadmin allow
+add_ace VanillaACGBModerator VanillaACGBmod allow
+add_ace VanillaACGBPolice VanillaACGBpolice allow
+
+
+add_principal identifier.steam:12345 VanillaACGBAdministrator ##Permission Godmode,Invisible,Spectate and Blips##
+add_principal identifier.steam:12345 VanillaACGBModerator ##Permission Spectate and blips##
+add_principal identifier.steam:12345 VanillaACGBpolice ##Permission Blips##

